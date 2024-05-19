@@ -1,4 +1,4 @@
-import { ApiCall, ApiMethods as ApiMethod } from "./ApiCall"
+import { ApiCall, ApiMethods as ApiMethod } from "../api-test-framework/ApiCall"
 const apiLogger = require('superagent-logger');
 
 const fn = async () => {
