@@ -15,15 +15,15 @@
   "author": "Krishna Kumar Singh",
   "license": "ISC",
   "dependencies": {
-    "@types/superagent": "^8.1.6",
+    "@types/superagent": "^8.1.7",
     "@types/supertest": "^6.0.2",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "mongoose": "^8.3.1",
+    "mongoose": "^8.4.0",
     "nock": "^13.5.4",
     "nodemon": "^3.1.0",
-    "superagent": "^8.1.2",
+    "superagent": "^9.0.2",
     "superagent-logger": "^1.1.0",
-    "supertest": "^6.3.4"
+    "supertest": "^7.0.0"
   }
 }

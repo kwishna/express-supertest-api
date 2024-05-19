@@ -4,6 +4,9 @@ import TestAgent from "supertest/lib/agent";
 const apiLogger = require('superagent-logger');
 import fs from 'fs';
 
+/**
+ * Represents the available HTTP methods for API calls.
+ */
 export enum ApiMethods {
     GET = 'GET',
     POST = 'POST',
@@ -904,6 +907,12 @@ export class ApiCall {
         this.req.end(callback);
     }
 
+    /**
+     * Completes the API call request.
+     * Experimental: May have bug. 
+     * @param onrejected 
+     * @returns 
+     */
     public async done(
         onfulfilled?: ((value: Response) => any) | null,
         onrejected?: ((reason: any) => any) | null
